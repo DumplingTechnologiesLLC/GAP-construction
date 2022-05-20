@@ -7,13 +7,26 @@
   <title><%= site.title %></title>
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta content="GaP Advisors is a Houston M&amp;A firm serving business owners through representation for Mergers &amp; Acquisitions (M&amp;A) along with services for Fractional CFO, Advisory Board, Executive Coaching, and Consulting." name="description"/>
+  <meta content="Mergers and Acquisition Houston | GaP Advisors" property="og:title"/>
+  <meta content="GaP Advisors is a Houston M&amp;A firm serving business owners through representation for Mergers &amp; Acquisitions (M&amp;A) along with services for Fractional CFO, Advisory Board, Executive Coaching, and Consulting." property="og:description"/>
+  <meta content="./images/gap.jpg" property="og:image"/>
+  <meta content="Mergers and Acquisition Houston | GaP Advisors" property="twitter:title"/>
+  <meta content="GaP Advisors is a Houston M&amp;A firm serving business owners through representation for Mergers &amp; Acquisitions (M&amp;A) along with services for Fractional CFO, Advisory Board, Executive Coaching, and Consulting." property="twitter:description"/>
+  <meta content="./images/gap.jpg" property="twitter:image"/>
+  <meta property="og:type" content="website"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <%- include('partials/navbar') %>
   <div class="pageLayout">
-    <%- include('partials/navbar') %>
     
     <div class="content">
       <%- body %>
@@ -23,4 +36,5 @@
   </div>
 </body>
   <script src="./scripts/navbar.js"></script>
+  <script src="./scripts/footer.js"></script>
 </html>

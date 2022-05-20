@@ -10,9 +10,9 @@
     </svg>
   </a>
 </nav>
-<div class="navbarBackdrop" id="backdrop"></div>
+<div class="navbarBackdrop" id="backdrop" onclick="toggleNavbar()"></div>
 <nav class="expandableNavbar" id="navbar">
-  <div class="toggleArea">
+  <div class="expandableNavbar__toggleArea">
     <button onclick="toggleNavbar()">
       <svg xmlns="http://www.w3.org/2000/svg" width="42" height="22" viewBox="0 0 42 22">
         <rect width="42" height="3" rx="1.5" fill="#fff"/>
@@ -21,7 +21,7 @@
       </svg>
     </button>
   </div>
-  <div class="links">
+  <div class="expandableNavbar__links">
     <a href="/about">About us</a>
     <a href="/our-work">Our work</a>
     <a href="/">Home</a>

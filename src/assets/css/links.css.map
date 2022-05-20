@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACQA,AAAA,CAAC,CAAC;EAPA,WAAW,EAAE,qBAAqB;CASnC",
+    "sources": [
+        "links.scss",
+        "text.scss"
+    ],
+    "names": [],
+    "file": "links.css"
+}

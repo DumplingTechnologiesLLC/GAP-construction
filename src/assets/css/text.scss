@@ -1,0 +1,11 @@
+@mixin default-text {
+  font-family: 'Raleway', sans-serif;
+}
+@mixin bolded-text {
+  font-weight: bold;
+  @include default-text;
+}
+
+* {
+  @include default-text;
+}
