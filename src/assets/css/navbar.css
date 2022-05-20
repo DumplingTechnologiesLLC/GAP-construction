@@ -30,10 +30,10 @@
           backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, 0.15);
   z-index: 2;
-  -webkit-transition: -webkit-clip-path .3s ease-out;
-  transition: -webkit-clip-path .3s ease-out;
-  transition: clip-path .3s ease-out;
-  transition: clip-path .3s ease-out, -webkit-clip-path .3s ease-out;
+  -webkit-transition: -webkit-clip-path .15s ease-out;
+  transition: -webkit-clip-path .15s ease-out;
+  transition: clip-path .15s ease-out;
+  transition: clip-path .15s ease-out, -webkit-clip-path .15s ease-out;
   -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
           clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
@@ -54,7 +54,7 @@
   transition: -webkit-clip-path .3s ease-out;
   transition: clip-path .3s ease-out;
   transition: clip-path .3s ease-out, -webkit-clip-path .3s ease-out;
-  width: 300px;
+  width: 295px;
   -webkit-clip-path: circle(100px at 100% 0);
           clip-path: circle(100px at 100% 0);
 }

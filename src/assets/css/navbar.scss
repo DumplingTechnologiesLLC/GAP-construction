@@ -27,7 +27,7 @@ $navbarExpandedZIndex: $navbarZIndex + 1;
   backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, .15);
   z-index: $navbarBackdropZIndex;
-  transition: clip-path .3s ease-out;
+  transition: clip-path .15s ease-out;
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   &--expanded {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -42,7 +42,7 @@ $navbarExpandedZIndex: $navbarZIndex + 1;
   background-color: #A91E24;
   height: 100%;
   transition: clip-path .3s ease-out;
-  width: 300px;
+  width: 295px;
   clip-path: circle(100px at 100% 0);
   .links {
     display :none;
