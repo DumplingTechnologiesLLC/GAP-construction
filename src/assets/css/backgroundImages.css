@@ -7,7 +7,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   background-position: center center;
-  background-image: url(../images/backgroundImage1.jpg);
+  background-image: url(../images/backgroundImage1.webp);
   height: 600px;
 }
 
@@ -20,7 +20,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   background-position: center center;
-  background-image: url(../images/backgroundImage2.jpg);
+  background-image: url(../images/backgroundImage2.webp);
   height: 600px;
 }
 /*# sourceMappingURL=backgroundImages.css.map */
