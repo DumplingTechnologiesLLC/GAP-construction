@@ -7,13 +7,17 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  background-position: center center;
+  background-position: center;
+  @media screen and (max-width: 450px) {
+    // since mobile parallax photos don't work...
+    background-attachment: scroll;
+  }
 }
 
 .backgroundImage1 {
   @include backgroundImage();
   background-image: url(../images/backgroundImage1.webp);
-  height: 600px;
+  height: 600px; 
 }
 .backgroundImage2 {
   @include backgroundImage();

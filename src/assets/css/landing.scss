@@ -12,7 +12,7 @@ $aboveTheFoldMobileHeight: 268px;
 }
 
 @mixin bicolumnImage($color: $gap-red) {
-    min-width: 350px;
+    min-width: 300px;
     flex: 1;
     position: relative;
     justify-content: center;
@@ -41,6 +41,7 @@ $aboveTheFoldMobileHeight: 268px;
 @mixin bicolumnText {
   flex: 1;
   padding: 2em;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,6 +172,7 @@ $aboveTheFoldMobileHeight: 268px;
   background-color: white;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   border-top: 1.5em solid $gap-red;
   padding: 1em;
@@ -274,6 +276,7 @@ $aboveTheFoldMobileHeight: 268px;
     display: flex; 
     flex-wrap: wrap;
     margin-bottom: 14em;
+    max-width: 100%;
     padding: 2em;
     &__imageContainer {
       @include bicolumnImage($gap-dark-blue);

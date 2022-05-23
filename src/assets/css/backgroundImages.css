@@ -6,9 +6,15 @@
   background-color: #a3a3a3;
   display: -webkit-box;
   display: -ms-flexbox;
-  background-position: center center;
+  background-position: center;
   background-image: url(../images/backgroundImage1.webp);
   height: 600px;
+}
+
+@media screen and (max-width: 450px) {
+  .backgroundImage1 {
+    background-attachment: scroll;
+  }
 }
 
 .backgroundImage2 {
@@ -19,8 +25,14 @@
   background-color: #a3a3a3;
   display: -webkit-box;
   display: -ms-flexbox;
-  background-position: center center;
+  background-position: center;
   background-image: url(../images/backgroundImage2.webp);
   height: 600px;
+}
+
+@media screen and (max-width: 450px) {
+  .backgroundImage2 {
+    background-attachment: scroll;
+  }
 }
 /*# sourceMappingURL=backgroundImages.css.map */
