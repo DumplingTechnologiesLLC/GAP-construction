@@ -2,6 +2,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
+
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -19,7 +24,7 @@
           align-items: center;
   padding: .25em;
   background-color: white;
-  z-index: 3;
+  z-index: 4;
 }
 
 .navbarBackdrop {
@@ -33,7 +38,7 @@
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, 0.15);
-  z-index: 2;
+  z-index: 3;
   -webkit-transition: -webkit-clip-path .15s ease-out;
   transition: -webkit-clip-path .15s ease-out;
   transition: clip-path .15s ease-out;
@@ -49,7 +54,7 @@
 
 .expandableNavbar {
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   top: 0;
   right: 0;
   background-color: #A91E24;

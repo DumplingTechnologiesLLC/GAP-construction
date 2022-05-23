@@ -1,3 +1,5 @@
+@import './colors';
+
 @mixin default-text {
   font-family: 'Raleway', sans-serif;
 }
@@ -8,4 +10,9 @@
 
 * {
   @include default-text;
+}
+
+.red-text {
+  color: $gap-red;
+  white-space: nowrap;
 }

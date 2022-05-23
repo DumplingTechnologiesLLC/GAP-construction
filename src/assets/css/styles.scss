@@ -1,4 +1,5 @@
 @import './text';
+@import './colors';
 html, body {
   margin: 0;
   padding: 0;
@@ -14,4 +15,34 @@ html, body {
 }
 h1,h2,h3,h4,h5,h6 {
   margin-block-end: 0;
+}
+
+.secondaryCTASection {
+  background-image: url(../images/tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 3em;
+
+  &__card {
+    h3 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    border-radius: 3px;
+    border: 2px solid $gap-red;
+    padding: 1em;
+    background-color: white;
+    max-width: 650px;
+    button {
+      margin: .5em 0;
+    }
+    small {
+      display: block;
+      @include bolded-text;
+    }
+  }
 }

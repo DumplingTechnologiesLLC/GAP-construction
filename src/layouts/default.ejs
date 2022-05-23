@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%= site.title %></title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/buttons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 
   <meta content="GaP Advisors is a Houston M&amp;A firm serving business owners through representation for Mergers &amp; Acquisitions (M&amp;A) along with services for Fractional CFO, Advisory Board, Executive Coaching, and Consulting." name="description"/>
   <meta content="Mergers and Acquisition Houston | GaP Advisors" property="og:title"/>
@@ -25,8 +29,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <%- include('partials/navbar') %>
   <div class="pageLayout">
+    <%- include('partials/navbar') %>
     
     <div class="content">
       <%- body %>

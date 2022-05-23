@@ -1,0 +1,22 @@
+@mixin backgroundImage {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: rgb(163, 163, 163);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  background-position: center center;
+}
+
+.backgroundImage1 {
+  @include backgroundImage();
+  background-image: url(../images/backgroundImage1.jpg);
+  height: 600px;
+}
+.backgroundImage2 {
+  @include backgroundImage();
+  background-image: url(../images/backgroundImage2.jpg);
+  height: 600px;
+}

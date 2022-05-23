@@ -1,9 +1,7 @@
 @import './colors';
 @import './links';
+@import './elevation';
 
-$navbarBackdropZIndex: 2;
-$navbarZIndex: $navbarBackdropZIndex + 1;
-$navbarExpandedZIndex: $navbarZIndex + 1;
 
 .navbar {
   position: sticky;

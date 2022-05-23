@@ -1,4 +1,9 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
 /*# sourceMappingURL=links.css.map */

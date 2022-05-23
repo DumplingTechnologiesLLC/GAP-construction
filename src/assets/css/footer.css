@@ -2,8 +2,18 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
+
 * {
   font-family: 'Raleway', sans-serif;
+}
+
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
 }
 
 .footer {

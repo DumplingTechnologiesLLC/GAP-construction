@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAQA,AAAA,CAAC,CAAC;EAPA,WAAW,EAAE,qBAAqB;CASnC",
+    "mappings": "AAUA,AAAA,CAAC,CAAC;EAPA,WAAW,EAAE,qBAAqB;CASnC;;AAED,AAAA,SAAS,CAAC;EACR,KAAK,ECbG,OAAO;EDcf,WAAW,EAAE,MAAM;CACpB",
     "sources": [
-        "text.scss"
+        "text.scss",
+        "colors.scss"
     ],
     "names": [],
     "file": "text.css"
