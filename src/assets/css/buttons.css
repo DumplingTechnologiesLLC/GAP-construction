@@ -6,8 +6,13 @@
   padding: .25em .5em;
   cursor: pointer;
   display: inline-block;
+  text-decoration: none;
+  color: white;
   background-color: #080180;
   font-size: 2em;
+}
+
+.primaryCTA:visited {
   color: white;
 }
 
@@ -35,12 +40,18 @@
   padding: .25em .5em;
   cursor: pointer;
   display: inline-block;
+  text-decoration: none;
+  color: white;
   background-color: #A91E24;
   color: white;
   font-size: 1.5em;
 }
 
+.secondaryCTA:visited {
+  color: white;
+}
+
 .secondaryCTA:hover {
-  background-color: #05014d;
+  background-color: #7e161b;
 }
 /*# sourceMappingURL=buttons.css.map */
