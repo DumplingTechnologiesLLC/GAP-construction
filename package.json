@@ -10,7 +10,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nanogen": "^0.4.2"
+  "devDependencies": {},
+  "dependencies": {
+    "nanogen": "git+https://github.com/IntusFacultas/nanogen.git"
   }
 }
