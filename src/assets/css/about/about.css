@@ -1,0 +1,121 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
+
+.aboveTheFold {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboveTheFold::before {
+  content: ' ';
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(/images/GAPIcon.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  z-index: -1;
+}
+
+.aboveTheFold__title {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboveTheFold__title h1 {
+  font-size: 8em;
+  margin: 0;
+  margin: 0 .15em;
+}
+
+.aboveTheFold__title img {
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.aboveTheFold__heroImages {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.aboveTheFold__heroImages * {
+  z-index: 1;
+}
+
+.aboveTheFold__heroImages__heroImage figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboveTheFold__heroImages__heroImage figure img {
+  width: 500px;
+  -webkit-clip-path: circle(165px);
+          clip-path: circle(165px);
+}
+
+@media screen and (max-width: 598px) {
+  .aboveTheFold__heroImages__heroImage figure img {
+    width: 400px;
+    -webkit-clip-path: circle(134px);
+            clip-path: circle(134px);
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .aboveTheFold__heroImages__heroImage figure img {
+    width: 300px;
+    -webkit-clip-path: circle(100px);
+            clip-path: circle(100px);
+  }
+}
+
+.aboveTheFold__heroImages__heroImage figure figcaption {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=about.css.map */
