@@ -3,24 +3,32 @@
 
 (() => {
   const generateBreadcrumbs = () => {
-    const DIVIDER = `<span>&#10148;</span>`;
+    const DIVIDER = `<span class="navbar__breadcrumb--divider">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19">
+      <g transform="translate(-272.5 -30)">
+        <path d="M9.5,0,19,16H0Z" transform="translate(293.5 30) rotate(90)" fill="#a91e24"/>
+        <path d="M9.5,0,19,16H0Z" transform="translate(288.5 30) rotate(90)" fill="#fff"/>
+      </g>
+    </svg>
+    </span>`;
     const breadcrumbs = [{
       text: 'Home',
       link: '/'
     }];
     const { location: { pathname} } = window;
+    console.log(pathname)
     switch(pathname) {
-      case '/about': {
+      case '/about/': {
         breadcrumbs.push({
           text: 'About Us',
-          link: '/about'
+          link: '/about/'
         })
         break;
       }
-      case '/our-work': {
+      case '/our-work/': {
         breadcrumbs.push({
           text: 'Our Work',
-          link: '/our-work'
+          link: '/our-work/'
         });
         break;
       }

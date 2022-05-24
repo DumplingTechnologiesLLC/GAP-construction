@@ -1,0 +1,33 @@
+.aboveTheFold {
+  position: relative;
+  &::before {
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(../images/AboveTheFold.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  display: flex;
+  flex-direction: column;
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+  &__heroImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &__heroImage {
+      img {
+        clip-path: circle(80px);
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

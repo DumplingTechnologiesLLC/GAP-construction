@@ -38,7 +38,7 @@
 }
 
 .navbar__breadcrumb {
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   margin-bottom: .5em;
@@ -48,6 +48,11 @@
   color: #A91E24;
   text-decoration: none;
   cursor: pointer;
+}
+
+.navbar__breadcrumb--divider {
+  color: #A91E24;
+  margin: 0 .5em;
 }
 
 .navbar__breadcrumb::after {
