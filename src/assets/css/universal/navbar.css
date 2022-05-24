@@ -52,7 +52,25 @@
 
 .navbar__breadcrumb--divider {
   color: #A91E24;
-  margin: 0 .5em;
+  margin: 0 .1em;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar__breadcrumb--divider svg {
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .navbar__breadcrumb--divider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar__breadcrumb {
+    font-size: 1em;
+  }
 }
 
 .navbar__breadcrumb::after {
@@ -75,6 +93,12 @@
 
 .navbar__breadcrumb:visited {
   color: #A91E24;
+}
+
+@media screen and (max-width: 370px) {
+  .navbar__breadcrumb {
+    display: none;
+  }
 }
 
 .navbarBackdrop {

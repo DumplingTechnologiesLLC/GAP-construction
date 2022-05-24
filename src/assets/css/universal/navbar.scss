@@ -20,9 +20,20 @@
   &__breadcrumb {
     &--divider {
       color: $gap-red;
-      margin: 0 .5em;
+      margin: 0 .1em;
+      @media screen and (max-width: 450px) {
+        svg {
+          height: 10px;
+        }
+      }
+      @media screen and (max-width: 370px) {
+        display: none;
+      }
     }
     font-size: 1.75em;
+    @media screen and (max-width: 450px) {
+      font-size: 1em;
+    }
     @include bolded-text;
     @include underlined-link($gap-red);
     color: $gap-red;
@@ -30,6 +41,9 @@
     cursor: pointer;
     &:visited {
       color: $gap-red;
+    }
+    @media screen and (max-width: 370px) {
+      display: none;
     }
   }
 }
