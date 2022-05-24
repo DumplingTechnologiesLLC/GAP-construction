@@ -7,6 +7,15 @@
   white-space: nowrap;
 }
 
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
+
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -16,15 +25,51 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: .25em;
   background-color: white;
   z-index: 4;
+}
+
+.navbar #breadcrumbs {
+  margin-left: 1em;
+}
+
+.navbar__breadcrumb {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: .5em;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: #A91E24;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar__breadcrumb::after {
+  content: ' ';
+  background-color: #A91E24;
+  -webkit-transition: width .15s ease-out;
+  transition: width .15s ease-out;
+  width: 0px;
+  height: 2px;
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.navbar__breadcrumb:hover::after {
+  width: 100%;
+}
+
+.navbar__breadcrumb:visited {
+  color: #A91E24;
 }
 
 .navbarBackdrop {

@@ -1,4 +1,38 @@
 
+
+
+(() => {
+  const generateBreadcrumbs = () => {
+    const DIVIDER = `<span>&#10148;</span>`;
+    const breadcrumbs = [{
+      text: 'Home',
+      link: '/'
+    }];
+    const { location: { pathname} } = window;
+    switch(pathname) {
+      case '/about': {
+        breadcrumbs.push({
+          text: 'About Us',
+          link: '/about'
+        })
+        break;
+      }
+      case '/our-work': {
+        breadcrumbs.push({
+          text: 'Our Work',
+          link: '/our-work'
+        });
+        break;
+      }
+    }
+    const mappedBreadcrumps = breadcrumbs.map(({ text, link}) => `<a class="navbar__breadcrumb" href="${link}">${text}</a>`)
+    console.log(mappedBreadcrumps)
+    const breadcrumbsContainer = document.getElementById('breadcrumbs');
+    breadcrumbsContainer.innerHTML = mappedBreadcrumps.join(DIVIDER);
+  }
+  generateBreadcrumbs();
+})();
+
 const toggleNavbar = () => {
   const EXPANDED_NAVBAR_CLASS = 'expandableNavbar--expanded';
   const EXPANDED_BACKDROP_CLASS = 'navbarBackdrop--expanded';
