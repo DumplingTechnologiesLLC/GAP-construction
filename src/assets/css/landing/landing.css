@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 1079px) {
   .aboveTheFold {
-    background-image: url(../images/gridcircles.svg);
+    background-image: url(/images/gridcircles.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em;
   }
@@ -394,7 +394,7 @@
 
 @media screen and (max-width: 999px) {
   .howWeCanHelp {
-    background-image: url(../images/gridcircles.svg);
+    background-image: url(/images/gridcircles.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em;
   }

@@ -1,12 +1,12 @@
-@import './colors';
-@import './elevation';
-@import './text';
+@import '../universal/colors';
+@import '../universal/elevation';
+@import '../universal/text';
 
 $mobileScreenWidth: 568px;
 $aboveTheFoldMobileHeight: 268px;
 
 @mixin backgroundDots {
-  background-image: url(../images/gridcircles.svg);
+  background-image: url(/images/gridcircles.svg);
   background-repeat: no-repeat;
   background-position: bottom 1em right 1em;
 }
