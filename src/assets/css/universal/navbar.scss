@@ -21,8 +21,10 @@
     &--divider {
       color: $gap-red;
       margin: 0 .1em;
-      @media screen and (max-width: 450px) {
-        svg {
+      svg {
+        height: 15px;
+        width: 15px;
+        @media screen and (max-width: 450px) {
           height: 10px;
         }
       }

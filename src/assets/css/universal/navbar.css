@@ -55,6 +55,11 @@
   margin: 0 .1em;
 }
 
+.navbar__breadcrumb--divider svg {
+  height: 15px;
+  width: 15px;
+}
+
 @media screen and (max-width: 450px) {
   .navbar__breadcrumb--divider svg {
     height: 10px;
