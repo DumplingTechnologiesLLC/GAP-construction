@@ -1,6 +1,21 @@
 @import '../universal/text';
 @import '../universal/colors';
 
+@mixin learnMoreLink {
+  text-decoration: none;
+  color: white;
+  transition: background-color .3s ease-out;
+  background-color: $gap-dark-blue;
+  border-radius: 3px;
+  padding: .5em 1em;
+  &:hover {
+    background-color: darken($gap-dark-blue, 10%);
+  }
+  &:visited {
+    color: white;
+  }
+}
+
 @mixin circularImageWithCaption {
   figure {
     img {
@@ -15,7 +30,7 @@
         clip-path: circle(100px);
       }
     }
-    figcaption {
+    figcaption.red-text {
       @include bolded-text;
       font-size: 1.5em
     }
@@ -73,6 +88,10 @@
     justify-content: space-evenly;
     &__heroImage {
       @include circularImageWithCaption();
+      &__link {
+        margin-top: .5em;
+        @include learnMoreLink();
+      }
     }
   }
 }
@@ -126,18 +145,7 @@
       align-items: center;
     }
     &__link {
-      text-decoration: none;
-      color: white;
-      transition: background-color .3s ease-out;
-      background-color: $gap-dark-blue;
-      border-radius: 3px;
-      padding: .5em 1em;
-      &:hover {
-        background-color: darken($gap-dark-blue, 10%);
-      }
-      &:visited {
-        color: white;
-      }
+      @include learnMoreLink;
     }
   }
 }

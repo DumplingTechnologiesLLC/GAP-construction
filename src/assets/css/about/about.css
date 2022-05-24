@@ -117,10 +117,29 @@
   }
 }
 
-.aboveTheFold__heroImages__heroImage figure figcaption {
+.aboveTheFold__heroImages__heroImage figure figcaption.red-text {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
+}
+
+.aboveTheFold__heroImages__heroImage__link {
+  margin-top: .5em;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+  background-color: #080180;
+  border-radius: 3px;
+  padding: .5em 1em;
+}
+
+.aboveTheFold__heroImages__heroImage__link:hover {
+  background-color: #05014d;
+}
+
+.aboveTheFold__heroImages__heroImage__link:visited {
+  color: white;
 }
 
 .founderCopy {
