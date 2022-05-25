@@ -21,6 +21,10 @@
   font-size: 3em;
 }
 
+.aboveTheFold .red-text {
+  white-space: initial !important;
+}
+
 .aboveTheFold__industries {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +70,10 @@
 
 .workSampling h1 {
   font-size: 3em;
+}
+
+.workSampling .red-text {
+  white-space: initial !important;
 }
 
 .workSampling__works {
@@ -119,6 +127,78 @@
 }
 
 .workSampling__works__work figure img {
+  height: 150px;
+  -webkit-clip-path: circle(70px);
+          clip-path: circle(70px);
+}
+
+.whatOthersAreSaying {
+  padding: 2em;
+  background-size: 200px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.whatOthersAreSaying h1 {
+  font-size: 3em;
+}
+
+.whatOthersAreSaying .red-text {
+  white-space: initial !important;
+}
+
+.whatOthersAreSaying__awards {
+  background-image: url(/images/footer/GhostLogo.svg);
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whatOthersAreSaying__awards__award {
+  text-decoration: none;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+  background-color: white;
+  margin: .5em;
+  border: 1px solid #0B4A9F;
+  -webkit-box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+          box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.whatOthersAreSaying__awards__award:hover {
+  background-color: #fafafa;
+}
+
+.whatOthersAreSaying__awards__award figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 300px;
+}
+
+.whatOthersAreSaying__awards__award figure figcaption {
+  max-width: 250px;
+}
+
+.whatOthersAreSaying__awards__award figure img {
   height: 150px;
   -webkit-clip-path: circle(70px);
           clip-path: circle(70px);
