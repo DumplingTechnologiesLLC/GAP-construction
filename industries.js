@@ -12,10 +12,6 @@ module.exports = [
     img: '/images/industries/environmentalServices-min.webp'
   },
   {
-    text: 'Chemicals & Refining',
-    img: '/images/industries/refining-min.webp'
-  },
-  {
     text: 'Logistics',
     img: '/images/industries/logistics-min.webp'
   },
@@ -40,20 +36,8 @@ module.exports = [
     img: '/images/industries/construction-min.webp'
   },
   {
-    text: 'Mining',
-    img: '/images/industries/mining-min.webp'
-  },
-  {
     text: 'Telecom',
     img: '/images/industries/telecom-min.webp'
-  },
-  {
-    text: 'Oil & Gas',
-    img: '/images/industries/oil-min.webp'
-  },
-  {
-    text: 'Marine',
-    img: '/images/industries/marine-min.webp'
   },
   {
     text: 'Industrial Services',
