@@ -65,4 +65,22 @@ module.exports = [
     img: '/images/our-work/metro.webp',
     link: 'https://www.gap-advisors.com/news/metropolitan-glass-inc-has-been-purchased-by-performance-contracting-inc'
   },
+  {
+    year: '2022',
+    text: 'Precision NDT has been purchased by Arcapita Investment Management US, Inc.',
+    img: '/images/our-work/precision.webp',
+    link: 'https://www.gap-advisors.com/news/precision-ndt-has-been-purchased-by-arcapita-investment-management-us-inc'
+  },
+  {
+    year: '2022',
+    text: 'Professional Mainland Safety, LLC. has been purchased by Arcapita Investment Management US, Inc.',
+    img: '/images/our-work/professional.webp',
+    link: 'https://www.gap-advisors.com/news/professional-mainland-safety-llc-has-been-purchased-by-arcapita-investment-management-us-inc'
+  },
+  {
+    year: '2022',
+    text: 'Pro Mechanical USA, LLC has been purchased by Arcapita Investment Management US, Inc.',
+    img: '/images/our-work/proMechanical.webp',
+    link: 'https://www.gap-advisors.com/news/pro-mechanical-usa-llc-has-been-purchased-by-arcapita-investment-management-us-inc'
+  },
 ]
