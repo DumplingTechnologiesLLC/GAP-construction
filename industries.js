@@ -67,4 +67,24 @@ module.exports = [
     text: 'Equipment',
     img: '/images/industries/equipment-min.webp'
   },
+  {
+    text: 'Plumbing',
+    img: '/images/industries/plumbing.webp'
+  },
+  {
+    text: 'Pipefitting',
+    img: '/images/industries/pipefitting.webp'
+  },
+  {
+    text: 'Steamfitting',
+    img: '/images/industries/steamfitting.webp'
+  },
+  {
+    text: 'Commercial Flooring',
+    img: '/images/industries/commercialFlooring.webp'
+  },
+  {
+    text: 'Masonry',
+    img: '/images/industries/masonry.webp'
+  },
 ]

@@ -60,12 +60,6 @@ module.exports = [
     link: 'https://www.gap-advisors.com/news/narramore-glass-contracting-acquired-by-morelight-glass',
   },
   {
-    year: '2021',
-    text: 'Angleton Rehabilitation and Wellness Center acquired by River Oaks Physical Therapy',
-    img: '/images/our-work/angleton.webp',
-    link: 'https://www.gap-advisors.com/news/angleton-rehab-sale-announcement',
-  },
-  {
     year: '2022',
     text: 'Metropolitan Glass, Inc. acquired by Performance Contracting Inc.',
     img: '/images/our-work/metro.webp',
