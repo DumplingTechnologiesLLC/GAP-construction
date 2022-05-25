@@ -4,7 +4,6 @@
 
 .red-text {
   color: #A91E24;
-  white-space: nowrap;
 }
 
 .aboveTheFold {
@@ -53,6 +52,7 @@
   font-size: 8em;
   margin: 0;
   margin: 0 .15em;
+  white-space: initial !important;
 }
 
 .aboveTheFold__title img {
