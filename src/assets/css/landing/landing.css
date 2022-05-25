@@ -6,6 +6,13 @@
   color: #A91E24;
 }
 
+@media screen and (max-width: 450px) {
+  h1 span.red-text, h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text {
+    display: inline-block;
+    margin: 0 6px;
+  }
+}
+
 .aboveTheFold {
   background-color: white;
   display: -webkit-box;
@@ -364,6 +371,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .cards__transactionAdviser__text ul li::before {
@@ -374,6 +382,14 @@
   display: inline-block;
   width: .5em;
   margin-left: -0.5em;
+}
+
+@media screen and (max-width: 1020px) {
+  .cards__transactionAdviser__text ul li::before {
+    position: absolute;
+    top: -18px;
+    left: 0;
+  }
 }
 
 .howWeCanHelp {
@@ -493,6 +509,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .howWeCanHelp__container__text ul li::before {
@@ -503,6 +520,14 @@
   display: inline-block;
   width: .5em;
   margin-left: -0.5em;
+}
+
+@media screen and (max-width: 1020px) {
+  .howWeCanHelp__container__text ul li::before {
+    position: absolute;
+    top: -18px;
+    left: 0;
+  }
 }
 
 @-webkit-keyframes CardUnfold {
