@@ -57,8 +57,10 @@
 
 .aboveTheFold__industries__industry img {
   height: 150px;
+  width: 150px;
   -webkit-clip-path: circle(74px);
           clip-path: circle(74px);
+  background-color: #434343;
 }
 
 .workSampling {

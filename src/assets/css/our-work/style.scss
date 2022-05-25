@@ -61,11 +61,11 @@
       max-width: 150px;
       transform: translateY(-20px);
       animation: SlideDown .3s forwards;
-      // @media screen and (min-width: 450px) {
-      // }
       img {
         height: 150px;
+        width: 150px;
         clip-path: circle(74px);
+        background-color: #434343;
       }
       display: flex;
       flex-direction: column;
