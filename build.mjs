@@ -37,6 +37,15 @@ const build = async (pathToFolderOrFile) => {
         }
         case 'html': {
           console.log(chalk.bgBlueBright.white.bold(' Minifying '), path.join(pathToFolderOrFile, folderOrFile))
+          
+          if (pathToFolderOrFile.includes('404')) {
+            // we copy to 404.html
+            await minify({
+              compressor: htmlMinifier,
+              input: path.join(pathToFolderOrFile, folderOrFile),
+              output: path.join(pathToFolderOrFile, '../404.html'),
+            });
+          }
           await minify({
             compressor: htmlMinifier,
             input: path.join(pathToFolderOrFile, folderOrFile),
