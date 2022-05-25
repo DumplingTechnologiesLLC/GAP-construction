@@ -1,22 +1,32 @@
-.aboveTheFold {
+@import '../universal/text';
+@import '../universal/colors';
+
+@mixin commonStyling {
   h1 {
     font-size: 3em;
   }
-  background-image: url(/images/our-work/bubbles.svg);
-  background-position: right top;
-  background-repeat: no-repeat;
   padding: 2em;
   background-size: 200px;
   max-width: 1280px;
   margin: 0 auto;
+}
+.aboveTheFold {
+  
+  background-image: url(/images/our-work/bubbles.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  @include commonStyling();
 
   &__industries {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     &__industry {
+      max-width: 150px;
       transform: translateY(-20px);
       animation: SlideDown .3s forwards;
+      // @media screen and (min-width: 450px) {
+      // }
       img {
         height: 150px;
         clip-path: circle(74px);
@@ -29,6 +39,43 @@
   }
 }
 
+.workSampling {
+  @include commonStyling();
+  &__works {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__work {
+      text-decoration: none;
+      transition: background-color .3s ease-out;
+      background-color: white;
+      &:hover {
+        background-color: darken(white, 2%);
+      }
+      margin: .5em;
+      border: 1px solid $gap-blue;
+      box-shadow: 0px 4px 4px 2px transparentize($gap-dark-blue, 0.8);
+      border-radius: 3px;
+      @include bolded-text;
+      color: black;
+      figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 300px;
+        figcaption {
+          max-width: 250px;
+        }
+        img {
+          height: 150px;
+          clip-path: circle(70px);
+        }
+      }
+    }
+  }
+}
 @keyframes SlideDown {
  from {
   transform: translateY(-20px);

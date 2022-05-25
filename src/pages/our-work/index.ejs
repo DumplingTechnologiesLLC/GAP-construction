@@ -1,2 +1,6 @@
 <link rel="stylesheet" href="/css/our-work/style.css">
+<% site.industries.forEach(function(industry, index) { %>
+  <link rel="preload" as="image" href="<%= industry.img %>">
+<% }) %>
 <%- include('/partials/our-work/aboveTheFold') %>
+<%- include('/partials/our-work/WorkSampling') %>

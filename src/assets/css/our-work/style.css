@@ -1,3 +1,12 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.red-text {
+  color: #A91E24;
+  white-space: nowrap;
+}
+
 .aboveTheFold {
   background-image: url(/images/our-work/bubbles.svg);
   background-position: right top;
@@ -24,6 +33,7 @@
 }
 
 .aboveTheFold__industries__industry {
+  max-width: 150px;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
   -webkit-animation: SlideDown .3s forwards;
@@ -45,6 +55,73 @@
   height: 150px;
   -webkit-clip-path: circle(74px);
           clip-path: circle(74px);
+}
+
+.workSampling {
+  padding: 2em;
+  background-size: 200px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.workSampling h1 {
+  font-size: 3em;
+}
+
+.workSampling__works {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.workSampling__works__work {
+  text-decoration: none;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+  background-color: white;
+  margin: .5em;
+  border: 1px solid #0B4A9F;
+  -webkit-box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+          box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.workSampling__works__work:hover {
+  background-color: #fafafa;
+}
+
+.workSampling__works__work figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 300px;
+}
+
+.workSampling__works__work figure figcaption {
+  max-width: 250px;
+}
+
+.workSampling__works__work figure img {
+  height: 150px;
+  -webkit-clip-path: circle(70px);
+          clip-path: circle(70px);
 }
 
 @-webkit-keyframes SlideDown {
