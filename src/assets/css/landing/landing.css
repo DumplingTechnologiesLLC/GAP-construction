@@ -6,9 +6,34 @@
   color: #A91E24;
 }
 
+h1 span.red-text {
+  display: inline-block;
+}
+
+@media screen and (min-width: 451px) {
+  h1 span.red-text {
+    margin: 0 7px;
+  }
+}
+
 @media screen and (max-width: 450px) {
-  h1 span.red-text, h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text {
-    display: inline-block;
+  h1 span.red-text {
+    margin: 0 6px;
+  }
+}
+
+h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text {
+  display: inline-block;
+}
+
+@media screen and (min-width: 451px) {
+  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text {
+    margin: 0 4px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text {
     margin: 0 6px;
   }
 }
@@ -246,11 +271,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding: .5em;
   font-size: 1.25em;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
+  height: 84px;
+}
+
+.cards__container__card__text p {
+  margin: 0;
 }
 
 .cards__container__card__image {

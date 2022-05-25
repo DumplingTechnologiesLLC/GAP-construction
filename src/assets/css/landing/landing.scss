@@ -234,10 +234,15 @@ $aboveTheFoldMobileHeight: 268px;
       &__text {
         display: flex;
         justify-content: center;
+        align-items: center;
         text-align: center;
         padding: .5em;
         font-size: 1.25em;
         @include bolded-text;
+        height: 84px;
+        p {
+          margin: 0;
+        }
       }
       box-shadow: 0px 2px 4px 1px transparentize($gap-dark-blue, 0.4);
       &__image {
