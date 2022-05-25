@@ -28,6 +28,7 @@
 @media screen and (max-width: 568px) {
   .aboveTheFold {
     padding-top: 4em;
+    padding-bottom: 4em;
     min-height: 268px;
   }
 }

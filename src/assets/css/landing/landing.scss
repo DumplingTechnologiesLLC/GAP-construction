@@ -85,6 +85,7 @@ $aboveTheFoldMobileHeight: 268px;
     // on mobile the navbar tends to clip into the above the fold
     // so we're just buying some padding here
     padding-top: 4em;
+    padding-bottom: 4em;
     min-height: $aboveTheFoldMobileHeight;
   }
 
