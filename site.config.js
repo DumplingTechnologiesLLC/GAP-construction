@@ -1,6 +1,7 @@
 const industries = require('./industries');
 const works = require('./works');
 const awards = require('./awards');
+const employees = require('./employees');
 
 module.exports = {
   build: {
@@ -11,6 +12,7 @@ module.exports = {
     title: 'GAP Advisors',
     industries,
     works,
-    awards
+    awards,
+    employees
   }
 };

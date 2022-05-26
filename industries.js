@@ -87,4 +87,16 @@ module.exports = [
     text: 'Masonry',
     img: '/images/industries/masonry.webp'
   },
+  {
+    text: 'HVAC',
+    img: '/images/industries/hvac.webp'
+  },
+  {
+    text: 'Concrete & Asphalt Paving',
+    img: '/images/industries/concrete.webp'
+  },
+  {
+    text: 'Mechanical Contractors',
+    img: '/images/industries/mechanicalContractors.webp'
+  },
 ]

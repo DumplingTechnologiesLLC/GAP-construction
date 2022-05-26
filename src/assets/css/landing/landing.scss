@@ -64,11 +64,9 @@ $aboveTheFoldMobileHeight: 268px;
         width: .5em;
         margin-left: -0.5em;
 
-        @media screen and (max-width: 1020px) {
-          position: absolute;
-          top: -18px;
-          left: 0; 
-        }
+        position: absolute;
+        top: -18px;
+        left: 0; 
       }
     }
   }
@@ -102,6 +100,7 @@ $aboveTheFoldMobileHeight: 268px;
     margin-right: 1em;
     z-index: 1;
     h1 {
+      max-width: 904px;
       font-size: 3em;
       margin-bottom: .5em;
       @media screen and (max-width: 1130px){

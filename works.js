@@ -6,16 +6,16 @@ module.exports = [
     link: 'https://www.gap-advisors.com/news/c4-environmental-services-acquired-by-republic-industrial-and-energy-solutions'
   },
   {
+    year: '2017',
+    text: 'Congratulations to Equerry Corp',
+    img: '/images/our-work/equerryCorp.webp',
+    link: 'https://www.gap-advisors.com/news/congratulations-to-equerry-corp'
+  },
+  {
     year: '2018',
     text: 'Barton Land Consults acquired by Western Land Services',
     img: '/images/our-work/bartonLandConsults.webp',
     link: 'https://www.gap-advisors.com/news/barton-land-consultants-has-been-acquired-by-western-land-services'
-  },
-  {
-    year: '2018',
-    text: 'Congratulations to Equerry Corp',
-    img: '/images/our-work/equerryCorp.webp',
-    link: 'https://www.gap-advisors.com/news/congratulations-to-equerry-corp'
   },
   {
     year: '2020',
