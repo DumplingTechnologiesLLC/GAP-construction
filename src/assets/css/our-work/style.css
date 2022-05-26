@@ -297,13 +297,13 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
   0% {
     opacity: 0;
   }
-  10% {
+  5% {
     opacity: 100%;
   }
   60% {
     opacity: 100%;
   }
-  70% {
+  65% {
     opacity: 0%;
   }
   100% {
@@ -315,13 +315,13 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
   0% {
     opacity: 0;
   }
-  10% {
+  5% {
     opacity: 100%;
   }
   60% {
     opacity: 100%;
   }
-  70% {
+  65% {
     opacity: 0%;
   }
   100% {
