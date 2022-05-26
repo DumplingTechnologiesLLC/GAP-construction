@@ -44,6 +44,7 @@
     }
     img {
       height: 150px;
+      width: 150px;
       clip-path: circle(70px);
     }
   }
@@ -104,4 +105,47 @@
  to {
    transform: translateY(0px);
  }
+}
+
+.animatedImage {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    &:nth-of-type(2) {
+      opacity: 0;
+      animation-delay: 2s;
+      animation-name: FadeInOut;
+      animation-duration: 16s;
+      z-index: 1;
+
+      // scale because when the underlying color of the under image is not the same color as the above, we get
+      // some terrible aliasing at the edge, so we scale to hide it.
+      transform: scale(1.01);
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
 }

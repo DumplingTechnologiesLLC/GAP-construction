@@ -161,6 +161,7 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
 
 .workSampling__works__work figure img {
   height: 150px;
+  width: 150px;
   -webkit-clip-path: circle(70px);
           clip-path: circle(70px);
 }
@@ -233,6 +234,7 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
 
 .whatOthersAreSaying__awards__award figure img {
   height: 150px;
+  width: 150px;
   -webkit-clip-path: circle(70px);
           clip-path: circle(70px);
 }
@@ -256,6 +258,71 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
   to {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
+  }
+}
+
+.animatedImage {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
+.animatedImage img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.animatedImage img:nth-of-type(2) {
+  opacity: 0;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-name: FadeInOut;
+          animation-name: FadeInOut;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  z-index: 1;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes FadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
   }
 }
 /*# sourceMappingURL=style.css.map */

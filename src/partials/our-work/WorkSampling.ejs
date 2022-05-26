@@ -4,7 +4,10 @@
     <% site.works.forEach(function(work) { %>
       <a class="workSampling__works__work" href="<%= work.link %>" target="_blank">
         <figure>
-          <img src="<%= work.img %>" alt="Photo of <%= work.text %>">
+          <div class="animatedImage">
+            <img src="<%= work.seller.img %>" alt="Photo of <%= work.seller.companyName %> Logo">
+            <img src="<%= work.buyer.img %>" alt="Photo of <%= work.buyer.companyName %> Logo">
+          </div>
           <figcaption><%= work.year %></figcaption>
           <figcaption><%= work.text %></figcaption>
         </figure>
