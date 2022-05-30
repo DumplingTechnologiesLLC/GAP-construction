@@ -2,7 +2,7 @@
 @import '../universal/elevation';
 @import '../universal/text';
 
-$mobileScreenWidth: 568px;
+$minimumScreenWidth: 568px;
 $aboveTheFoldMobileHeight: 268px;
 
 @mixin backgroundDots {
@@ -86,7 +86,7 @@ $aboveTheFoldMobileHeight: 268px;
   // since we position absolute the background image,
   // we can't rely on it to define the height at this
   // break point, so we manually set the height.
-  @media screen and (max-width: $mobileScreenWidth) {
+  @media screen and (max-width: $minimumScreenWidth) {
     // on mobile the navbar tends to clip into the above the fold
     // so we're just buying some padding here
     padding-top: 4em;
@@ -149,7 +149,7 @@ $aboveTheFoldMobileHeight: 268px;
     }
 
     // chevron takes up too much space on mobile screens
-    @media screen and (max-width: $mobileScreenWidth) {
+    @media screen and (max-width: $minimumScreenWidth) {
       display: none;
     }
   }
@@ -161,7 +161,7 @@ $aboveTheFoldMobileHeight: 268px;
     // while having it take up half the container makes sense
     // on larger browsers, the same can't be said for 
     // mobile screens, so we position absolute it to put it behind the text.
-    @media screen and (max-width: $mobileScreenWidth) {
+    @media screen and (max-width: $minimumScreenWidth) {
       height: $aboveTheFoldMobileHeight;
       max-width: unset;
       width: initial;

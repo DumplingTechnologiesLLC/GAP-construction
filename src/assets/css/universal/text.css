@@ -6,35 +6,19 @@
   color: #A91E24;
 }
 
-h1 span.red-text {
-  display: inline-block;
+mark {
+  background: none;
 }
 
-@media screen and (min-width: 451px) {
-  h1 span.red-text {
-    margin: 0 7px;
-  }
+h1 mark.red-text {
+  display: inline;
 }
 
-@media screen and (max-width: 450px) {
-  h1 span.red-text {
-    margin: 0 6px;
-  }
+h2 mark.red-text, h3 mark.red-text, h4 mark.red-text, h5 mark.red-text, h6 mark.red-text, p mark.red-text, li mark.red-text {
+  display: inline;
 }
 
-h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-  display: inline-block;
-}
-
-@media screen and (min-width: 451px) {
-  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-    margin: 0 4px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-    margin: 0 6px;
-  }
+li p {
+  margin: 0;
 }
 /*# sourceMappingURL=text.css.map */

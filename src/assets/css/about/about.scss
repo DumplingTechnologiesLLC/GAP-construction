@@ -1,5 +1,6 @@
 @import '../universal/text';
 @import '../universal/colors';
+@import '../universal/breakpoints';
 
 @mixin learnMoreLink {
   text-decoration: none;
@@ -54,6 +55,10 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: left center;
+    @media screen and (max-width: $mobileBreakpoint) {
+      background-size: auto 500px;
+      background-position: bottom left;
+    }
     z-index: -1;
   }
   display: flex;
@@ -111,6 +116,11 @@
   justify-content: center;
   align-items: center;
   font-size: 3.5em;
+  text-align: center;
+  mark {
+    white-space: nowrap;
+    color: $gap-red;
+  }
 }
 .team {
   display: flex;
@@ -118,7 +128,6 @@
   padding: 2em;
   justify-content: center;
   border-bottom: 1em solid $gap-red;
-  
   &__card {
     min-width: 300px;
     max-width: 325px;

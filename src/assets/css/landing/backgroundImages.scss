@@ -1,3 +1,4 @@
+@import '../universal/breakpoints';
 @mixin backgroundImage {
   background-attachment: fixed;
   background-size: cover;
@@ -8,7 +9,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   background-position: center;
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: $mobileBreakpoint) {
     // since mobile parallax photos don't work...
     background-attachment: scroll;
   }

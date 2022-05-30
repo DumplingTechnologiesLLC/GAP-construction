@@ -15,28 +15,25 @@
 .red-text {
   color: $gap-red;
 }
+mark {
+  background: none;
+}
+
 
 h1 {
-  span.red-text {
-    display: inline-block;
-    @media screen and (min-width: 451px) {
-      margin: 0 7px;
-    }
-    @media screen and (max-width: 450px) {
-      margin: 0 6px;
-    }
+  mark.red-text {
+    display: inline;
   }
 }
 
 
 h2,h3,h4,h5,h6,p,li {
-  span.red-text {
-    display: inline-block;
-    @media screen and (min-width: 451px) {
-      margin: 0 4px;
-    }
-    @media screen and (max-width: 450px) {
-      margin: 0 6px;
-    }
+  mark.red-text {
+    display: inline;
+  }
+}
+li {
+  p {
+    margin: 0;
   }
 }

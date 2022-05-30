@@ -6,36 +6,20 @@
   color: #A91E24;
 }
 
-h1 span.red-text {
-  display: inline-block;
+mark {
+  background: none;
 }
 
-@media screen and (min-width: 451px) {
-  h1 span.red-text {
-    margin: 0 7px;
-  }
+h1 mark.red-text {
+  display: inline;
 }
 
-@media screen and (max-width: 450px) {
-  h1 span.red-text {
-    margin: 0 6px;
-  }
+h2 mark.red-text, h3 mark.red-text, h4 mark.red-text, h5 mark.red-text, h6 mark.red-text, p mark.red-text, li mark.red-text {
+  display: inline;
 }
 
-h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-  display: inline-block;
-}
-
-@media screen and (min-width: 451px) {
-  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-    margin: 0 4px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.red-text, p span.red-text, li span.red-text {
-    margin: 0 6px;
-  }
+li p {
+  margin: 0;
 }
 
 .aboveTheFold {
@@ -282,28 +266,31 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
 
 .animatedImage img:nth-of-type(2) {
   opacity: 0;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-name: FadeInOut;
-          animation-name: FadeInOut;
-  -webkit-animation-duration: 16s;
-          animation-duration: 16s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
   z-index: 1;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+.animatedImage--animated img:nth-of-type(2) {
+  -webkit-animation-name: FadeInOut;
+          animation-name: FadeInOut;
 }
 
 @-webkit-keyframes FadeInOut {
   0% {
     opacity: 0;
   }
-  5% {
+  15% {
     opacity: 100%;
   }
   60% {
     opacity: 100%;
   }
-  65% {
+  75% {
     opacity: 0%;
   }
   100% {
@@ -315,13 +302,13 @@ h2 span.red-text, h3 span.red-text, h4 span.red-text, h5 span.red-text, h6 span.
   0% {
     opacity: 0;
   }
-  5% {
+  15% {
     opacity: 100%;
   }
   60% {
     opacity: 100%;
   }
-  65% {
+  75% {
     opacity: 0%;
   }
   100% {
