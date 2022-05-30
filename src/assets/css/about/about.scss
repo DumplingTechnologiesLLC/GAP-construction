@@ -72,6 +72,9 @@
     justify-content: center;
     h1 {
       font-size: 8em;
+      @media screen and (max-width: $mobileBreakpoint) {
+        font-size: 2em;
+      }
       margin: 0;
       margin: 0 .15em;
       white-space: initial !important;
@@ -117,9 +120,13 @@
   align-items: center;
   font-size: 3.5em;
   text-align: center;
+  padding: 1em;
   mark {
     white-space: nowrap;
     color: $gap-red;
+  }
+  @media screen and (max-width: $mobileBreakpoint) {
+    font-size: 2em;
   }
 }
 .team {

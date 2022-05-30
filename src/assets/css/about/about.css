@@ -78,6 +78,12 @@ li p {
   white-space: initial !important;
 }
 
+@media screen and (max-width: 450px) {
+  .aboveTheFold__title h1 {
+    font-size: 2em;
+  }
+}
+
 .aboveTheFold__title img {
   min-width: 280px;
   max-width: 500px;
@@ -189,11 +195,18 @@ li p {
           align-items: center;
   font-size: 3.5em;
   text-align: center;
+  padding: 1em;
 }
 
 .subtitle mark {
   white-space: nowrap;
   color: #A91E24;
+}
+
+@media screen and (max-width: 450px) {
+  .subtitle {
+    font-size: 2em;
+  }
 }
 
 .team {
