@@ -166,7 +166,7 @@ module.exports = [
       img: '/images/our-work/professional/arcapita.webp',
       companyName: "Arcapita Investment Management US, Inc.",
     },
-    link: 'https://www.gap-advisors.com/news/professional-mainland-safety-llc-has-been-purchased-by-arcapita-investment-management-us-inc'
+    link: 'https://www.gap-advisors.com/news/pro-mainland-safety-llc-has-been-purchased-by-arcapita-investment-management-us-inc'
   },
   {
     year: '2022',
