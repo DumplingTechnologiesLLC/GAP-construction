@@ -34,5 +34,8 @@ module.exports = [
     text: 'ACG Houston Deal of the Year Finalist',
     img: '/images/awards/2022ACG.webp',
     link: 'https://www.gap-advisors.com/news/a-gap-facilitated-transaction-once-again-chosen-as-an-acg-houston-deal-of-the-year-finalist',
-  }
+  },
+  // add new awards below this line
+
+  // add new awards above this line
 ]

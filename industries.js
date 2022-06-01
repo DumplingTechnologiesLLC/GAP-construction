@@ -99,4 +99,7 @@ module.exports = [
     text: 'Mechanical Contractors',
     img: '/images/industries/mechanicalContractors.webp'
   },
+  // add new industries below this line
+
+  // add new industries above this line
 ]

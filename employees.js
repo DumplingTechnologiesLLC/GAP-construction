@@ -41,4 +41,7 @@ module.exports = [
     title: 'Relationship Development',
     link: 'https://www.gap-advisors.com/team/scott-bastian'
   },
+  // add new employees below this line
+
+  // add new employees above this line
 ]
