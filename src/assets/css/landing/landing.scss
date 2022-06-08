@@ -6,7 +6,7 @@ $minimumScreenWidth: 568px;
 $aboveTheFoldMobileHeight: 268px;
 
 @mixin backgroundDots {
-  background-image: url(/images/gridcircles.svg);
+  background-image: url(/images/landing/gridcircles.svg);
   background-repeat: no-repeat;
   background-position: bottom 1em right 1em;
 }
@@ -188,7 +188,7 @@ $aboveTheFoldMobileHeight: 268px;
     font-size: 2em;
   }
 
-  background-image: url(/images/gridcircles.svg), url(/images/landing/Intersection.svg);
+  background-image: url(/images/landing/gridcircles.svg), url(/images/landing/Intersection.svg);
   background-repeat: no-repeat;
   background-position: bottom 1em right 1em, left -10em center;
 
@@ -297,7 +297,7 @@ $aboveTheFoldMobileHeight: 268px;
   flex-direction: column;
   text-align: center;
   @media screen and (min-width: 1000px) {
-    background-image: url(/images/gridcircles.svg), url(/images/Group66.svg);
+    background-image: url(/images/landing/gridcircles.svg), url(/images/landing/Group66.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em, bottom left 10em;
   }

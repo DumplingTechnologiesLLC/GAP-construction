@@ -35,7 +35,7 @@ li p {
 
 @media screen and (min-width: 1079px) {
   .aboveTheFold {
-    background-image: url(/images/gridcircles.svg);
+    background-image: url(/images/landing/gridcircles.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em;
   }
@@ -168,7 +168,7 @@ li p {
           flex-direction: column;
   border-top: 1.5em solid #A91E24;
   padding: 1em;
-  background-image: url(/images/gridcircles.svg), url(/images/landing/Intersection.svg);
+  background-image: url(/images/landing/gridcircles.svg), url(/images/landing/Intersection.svg);
   background-repeat: no-repeat;
   background-position: bottom 1em right 1em, left -10em center;
 }
@@ -423,7 +423,7 @@ li p {
 
 @media screen and (min-width: 1000px) {
   .howWeCanHelp {
-    background-image: url(/images/gridcircles.svg), url(/images/Group66.svg);
+    background-image: url(/images/landing/gridcircles.svg), url(/images/landing/Group66.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em, bottom left 10em;
   }
@@ -431,7 +431,7 @@ li p {
 
 @media screen and (max-width: 999px) {
   .howWeCanHelp {
-    background-image: url(/images/gridcircles.svg);
+    background-image: url(/images/landing/gridcircles.svg);
     background-repeat: no-repeat;
     background-position: bottom 1em right 1em;
   }
