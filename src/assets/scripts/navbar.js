@@ -16,7 +16,6 @@
       link: '/'
     }];
     const { location: { pathname} } = window;
-    console.log(pathname)
     switch(pathname) {
       case '/about/': {
         breadcrumbs.push({
@@ -34,7 +33,6 @@
       }
     }
     const mappedBreadcrumps = breadcrumbs.map(({ text, link}) => `<a class="navbar__breadcrumb" href="${link}">${text}</a>`)
-    console.log(mappedBreadcrumps)
     const breadcrumbsContainer = document.getElementById('breadcrumbs');
     breadcrumbsContainer.innerHTML = mappedBreadcrumps.join(DIVIDER);
   }

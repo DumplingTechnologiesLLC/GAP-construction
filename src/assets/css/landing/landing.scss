@@ -205,10 +205,10 @@ $aboveTheFoldMobileHeight: 268px;
       border-radius: 3px;
       width: 350px;
       height: 415px;
-      @media screen and (min-width:450px) {
-        // this animation does not play smoothly on mobile
-        transform: rotate3d(0,1,0, 89deg);
-      }
+      // @media screen and (min-width:450px) {
+      //   // this animation does not play smoothly on mobile
+      //   transform: rotate3d(0,1,0, 89deg);
+      // }
       margin: .5em;
       display: flex;
       flex-direction: column;
@@ -225,11 +225,11 @@ $aboveTheFoldMobileHeight: 268px;
       &:nth-of-type(5) {
         animation-delay: .4s;
       }
-      &--animated {
-        @media screen and (min-width: 450px) {
-          animation: CardUnfold .3s forwards;
-        }
-      }
+      // &--animated {
+      //   @media screen and (min-width: 450px) {
+      //     animation: CardUnfold .3s forwards;
+      //   }
+      // }
       &__text {
         display: flex;
         justify-content: center;

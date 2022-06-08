@@ -215,13 +215,6 @@ li p {
           box-shadow: 0px 2px 4px 1px rgba(8, 1, 128, 0.6);
 }
 
-@media screen and (min-width: 450px) {
-  .cards__container__card {
-    -webkit-transform: rotate3d(0, 1, 0, 89deg);
-            transform: rotate3d(0, 1, 0, 89deg);
-  }
-}
-
 .cards__container__card:nth-of-type(2) {
   -webkit-animation-delay: .1s;
           animation-delay: .1s;
@@ -240,13 +233,6 @@ li p {
 .cards__container__card:nth-of-type(5) {
   -webkit-animation-delay: .4s;
           animation-delay: .4s;
-}
-
-@media screen and (min-width: 450px) {
-  .cards__container__card--animated {
-    -webkit-animation: CardUnfold .3s forwards;
-            animation: CardUnfold .3s forwards;
-  }
 }
 
 .cards__container__card__text {
