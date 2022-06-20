@@ -268,13 +268,13 @@ li p {
 
 .cards__container__card__image--fairMarket {
   background-image: url(/images/landing/money.webp);
-  background-size: 680px;
+  background-size: 700px 469px;
   background-position-x: -124px;
 }
 
 .cards__container__card__image--confidentiality {
   background-image: url(/images/landing/security.webp);
-  background-size: 600px;
+  background-size: 600px 337px;
   background-position-x: -121px;
 }
 
@@ -286,12 +286,12 @@ li p {
 
 .cards__container__card__image--legacy {
   background-image: url(/images/landing/children.webp);
-  background-size: 600px;
+  background-size: 600px 400px;
 }
 
 .cards__container__card__image--terms {
   background-image: url(/images/landing/terms.webp);
-  background-size: 400px;
+  background-size: 400px 600px;
   background-position: -3em -6em;
 }
 
