@@ -8,7 +8,9 @@
   display: -ms-flexbox;
   background-position: center;
   background-image: url(/images/landing/backgroundImage1.webp);
+  aspect-ratio: auto 2000 / 1333;
   height: 600px;
+  width: 100%;
 }
 
 @media screen and (max-width: 450px) {
@@ -27,7 +29,9 @@
   display: -ms-flexbox;
   background-position: center;
   background-image: url(/images/landing/backgroundImage2.webp);
+  aspect-ratio: auto 400 / 267;
   height: 600px;
+  width: 100%;
 }
 
 @media screen and (max-width: 450px) {
